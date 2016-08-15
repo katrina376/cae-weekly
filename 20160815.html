@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>8/8 - 8/12 Weekly Log</title>
+  <meta charset="utf-8">
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+    @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+    body {
+      font-family: 'Droid Serif';
+    }
+
+    h1, h2, h3 {
+      font-family: 'Yanone Kaffeesatz';
+      font-weight: normal;
+    }
+
+    .remark-code, .remark-inline-code {
+      font-family: 'Ubuntu Mono';
+    }
+  </style>
+</head>
+
+<body>
+  <textarea id="source">
+class: center, middle
+
+# 8/8 - 8/12 Weekly Log
+Hao-Yung Chan
+
+---
+
+# 上週每日事項
+
+* 8/8 - 讀展維學長的論文（ RQI ）
+* 8/9 - 跟展維學長交接
+* 8/10 - 看醫生 * 3 QQ
+* 8/11 - 寫 PRS 的資料庫
+* 8/12 - 跟劉先生討論 PRS 接下來的方向
+* 8/13 - 2016 暑訓場勘
+
+---
+
+# PRS 近況
+1. 開始寫資料庫（被凱元學長推坑，決定使用 MongoDB ）
+2. 辦了個AWS帳號來測試
+3. 找到 material-ui 來作為系統操作介面外觀的 framework ，但是跟 React.js 不太熟，所以尚不能快速上手，現在在學習如何寫 React.js
+
+---
+
+# 8/12 - PRS 討論
+分成三個解決方案（同日前寄給康老師的 Email ）
+
+1. Web Server + Google Drive
+2. Web Server
+3. Web Server + Moodle
+
+---
+
+## (A) Web Server + Google Drive
+將記錄評分設定的 DB 放在外部 Server 上，透過教師授權 Google Drive 存取權限給 Web App 的方式，讓學生上傳作業到教師的 Drive 上。
+
+### Props
+1. 檔案上傳到講師的 Drive ，一樣不會有需要在自己的機器上存放學生作業的問題。
+2. 講師在需要對學生作業檔案進行操作時，有比較好的彈性。
+
+### Cons
+1. Web App 需要有講師授權 Google Drive 的存取權限。
+  * 確實 Web App 這邊不會拿權限來做不該做的事情，但如果使用者要拿這件事情來咬，那是滿麻煩的事情。
+
+---
+
+## (B) Web Server
+同前一項的構想，但是把上傳作業的存放改到同一台 Server 上。
+
+### Props
+1. 不用要求講師授權 Google Drive 存取權限。
+2. 東西都在同一台機器上。
+
+### Cons
+1. 系統設計上需要研究安全性跟 Server 吃不吃得消的問題。
+  * 安全性：因應開放自己機器的存取權限給使用者。
+
+---
+
+## (C) Web Server + Moodle
+大致上跟前一項是一樣的，但使用開源的 Moodle 中 PRS 部分的設計。
+
+### Props
+1. 有個現成的穩定系統可以參照。
+
+### Cons
+1. Moodle 所使用的授權條款（ GPL ）有一些限制，雖然由 Moodle 修改或演繹出來的產品可以收費，但會被要求一樣開源並使用GPL授權條款。
+
+__老師裁示不使用方案(C)，選擇(A)或(B)繼續進行開發。__
+
+
+---
+
+
+# 本週預定進度
+* 繼續拉皮
+* 繼續資料庫架設
+* 本週五（8/19）會再去跟劉先生討論
+
+  </textarea>
+
+  <script src="https://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
+  <script>
+    var slideshow = remark.create();
+  </script>
+</body>
+
+</html>
