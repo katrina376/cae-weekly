@@ -1,7 +1,8 @@
 var fs = require("fs");
 
 var file_name = process.argv[2];
-var output_file_name = process.argv[3];
+var title = process.argv[3];
+var output_file_name = process.argv[4];
 
 var template = fs.readFileSync("./template.html", "utf-8");
 var content  = fs.readFileSync("../src/" + file_name, "utf-8");
