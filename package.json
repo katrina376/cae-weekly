@@ -1,0 +1,19 @@
+{
+  "name": "cae-weekly",
+  "version": "1.0.0",
+  "description": "Slides of weekly reports for CAECE Kang's Group, powered by Remark.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/katrina376/cae-weekly.git"
+  },
+  "author": "Hao-Yung Chan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/katrina376/cae-weekly/issues"
+  },
+  "homepage": "https://github.com/katrina376/cae-weekly#readme"
+}
