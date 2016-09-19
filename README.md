@@ -14,7 +14,7 @@ Released under MIT.
 # Build
 
 ```
-$ git clone https://github.io/cae-weekly.git
+$ git clone https://github.com/katrina376/cae-weekly.git
 $ cd cae-weekly
 $ npm install
 ```
