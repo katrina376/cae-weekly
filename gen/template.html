@@ -20,6 +20,18 @@
       font-weight: normal;
     }
 
+	h1 {
+	  font-size: 2em;
+	}
+
+	h2 {
+	  font-size: 1.6em;
+	}
+
+	h3 {
+	  font-size: 1.2em;
+	}
+
     .remark-code, .remark-inline-code {
       font-family: 'Ubuntu Mono';
     }
@@ -51,6 +63,14 @@
   <script src="./remark/remark-latest.min.js"></script>
   <script>
     var slideshow = remark.create();
+	
+	var allImg = document.querySelectorAll("img");
+	if (allImg.length > 0) {
+  	  for (var i = 0; i < allImg.length; ++i) {
+	    var h = allImg[i].parentElement.clientHeight;
+		allImg[i].style.height = h;
+	  }
+	}
   </script>
 </body>
 
