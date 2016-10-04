@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>9/26 - 9/30 Weekly Log</title>
+  <meta charset="utf-8" />
+  <meta author="Hao-Yung Chan" />
+  <style>
+
+    @import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono);
+    @import url(https://fonts.googleapis.com/css?family=Roboto);
+
+    body {
+      font-family: 'Roboto';
+    }
+
+    h1, h2, h3 {
+      font-family: 'Droid Serif';
+      font-weight: normal;
+    }
+
+	h1 {
+	  font-size: 2em;
+	}
+
+	h2 {
+	  font-size: 1.6em;
+	}
+
+	h3 {
+	  font-size: 1.2em;
+	}
+
+    .remark-code, .remark-inline-code {
+      font-family: 'Ubuntu Mono';
+    }
+
+    img {
+      margin: 0 auto;
+      max-width: 100%;
+      max-height: 100%;
+    }
+
+	table {
+	  width: 100%;
+	}
+
+	tr, td {
+	  border: solid 1px #000;
+	  text-align: center;
+	}
+  </style>
+</head>
+
+<body>
+  <textarea id="source">
+
+class: center, middle
+
+# 9/26 - 9/30 Weekly Log
+Hao-Yung Chan
+
+---
+
+## 上週每日事項
+
+* 9/26 - 上課、旁聽資結
+* 9/27 - 颱風假
+* 9/28 - 颱風假 
+* 9/29 - 上課、晚上去參加資訊安全相關的研討會
+* 9/30 - 跟孟學學長討論、準備小考
+
+---
+
+## Coursera 評語資料初步分析
+
+跟 Sunny 要到資料之後，進行了評語的初步分析。得出了一些發現：
+
+### 評語中提及的關鍵字，與評分標準敘述是符合的。
+舉例來說，如果前面問到「有沒有畫『輔助線』？」後面就可能會出現針對輔助線的評語。
+或是在要求學生給予文字性評語時，以「輔助線是否有所不足？」進行引導，就會得到針對輔助線的評語。
+
+---
+
+## (續) Coursera 評語資料初步分析
+
+### 對於同一評分標準，即便回答「有/是」，還是可能會有文字評語。
+舉例來說，以「有沒有畫『輔助線』？」這樣的問題，即便已經回答「有」，但有些評分者還是會針對輔助線提出評語，像是「畫太深」等等原先回答無法完整涵蓋的事情。
+原先以為是回答「無/否」的評分者才會在後面自由輸入文字的地方進行更明確的描述，但事實上，反而是回答「有/是」的人會有更多的文字描述。
+
+---
+
+## (續) Coursera 評語資料初步分析
+
+### 大多數的人是會回答「好/很好」這類程度的評語，或是重述一次「有/無」。
+這是否意味著可以不用再多問「是/否」的問題，而可以從文字描述去分析出是否有達到標準，或是做到自動的量化？
+
+
+
+
+  </textarea>
+
+  <script src="./remark/remark-latest.min.js"></script>
+  <script>
+    var slideshow = remark.create();
+	
+	var allImg = document.querySelectorAll("img");
+	if (allImg.length > 0) {
+  	  for (var i = 0; i < allImg.length; ++i) {
+	    var h = allImg[i].parentElement.clientHeight;
+		allImg[i].style.height = h;
+	  }
+	}
+  </script>
+</body>
+
+</html>
