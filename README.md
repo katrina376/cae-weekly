@@ -10,6 +10,8 @@ Released under MIT.
 - 8/29 - 9/2  : [20160905.html](http://katrina376.github.io/cae-weekly/20160905.html)
 - 9/5  - 9/9  : [20160912.html](http://katrina376.github.io/cae-weekly/20160912.html)
 - 9/12 - 9/14 : [20160919.html](http://katrina376.github.io/cae-weekly/20160919.html)
+- 9/19 - 9/23 : [20160926.html](http://katrina376.github.io/cae-weekly/20160926.html)
+- 9/26 - 9/30 : [20161003.html](http://katrina376.github.io/cae-weekly/20161003.html)
 
 # Build
 
