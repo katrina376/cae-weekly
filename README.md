@@ -12,6 +12,8 @@ Released under MIT.
 - 9/12 - 9/14 : [20160919.html](http://katrina376.github.io/cae-weekly/20160919.html)
 - 9/19 - 9/23 : [20160926.html](http://katrina376.github.io/cae-weekly/20160926.html)
 - 9/26 - 9/30 : [20161003.html](http://katrina376.github.io/cae-weekly/20161003.html)
+- 10/2 - 10/7 : [20161012.html](http://katrina376.github.io/cae-weekly/20161012.html)
+- 10/25 Group Meeting : [20161025-gm-Metis.html](http://katrina376.github.io/cae-weekly/20161025-gm-Metis.html)
 
 # Build
 
